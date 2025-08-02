@@ -13,7 +13,7 @@ function stringBasics() {
 
     
 
-    console.log(`My Hobbies are: ${hobby1}, ${hobby2}, ${hobby3}`);
+    console.log(`My Hobbies are: ${hobby1}, ${hobby2},${hobby3} `);
 
    
         
