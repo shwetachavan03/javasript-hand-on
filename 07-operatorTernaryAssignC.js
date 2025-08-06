@@ -9,7 +9,7 @@ function maleMarriageEligibility(gender, age, boyName){
 maleMarriageEligibility("Male", 25, "Billgates"); 
 maleMarriageEligibility("Male", 17, "Stew Jobs");  
 
-
+console.log("------------------------------------------------------------------------------------------");
 
 function femaleMarriageEligibility(gender, age, girlName) {
   var result = age >= 18 ? `Hey ${girlName} you are eligible for Marriage`

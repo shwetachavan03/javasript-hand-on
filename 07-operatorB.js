@@ -9,21 +9,39 @@ greaterNumber(800,899);
 console.log("------------------------------------------------------------------------------------------");
 
 function isEvenOrOddNum(num) {
-  return num % 2 === 0 ? true : false;
-}
+    var result= num % 2 == 0 ? "Even" : "Odd";
+    return result;
+   }
+ var resultValue=isEvenOrOddNum(29);
+  console.log(`Given no 29 & it is ${resultValue}`);
 
+  function isEvenOrOddNum(num) {
+    var result=num % 2 ==0 ? "Even" : "Odd";
+    return result;
+   }
+ var resultValue=isEvenOrOddNum(44);
+  console.log(`Given no 44 & it is  ${resultValue}`);
 
-console.log(isEvenOrOddNum(29));   
-console.log(isEvenOrOddNum(44));   
-console.log(isEvenOrOddNum(0));    
-console.log(isEvenOrOddNum(101)); 
+  function isEvenOrOddNum(num) {
+    var result=num % 2 ==0 ? "Even" : "Odd";
+    return result;
+   }
+ var resultValue=isEvenOrOddNum(0);
+  console.log(`Given no 0 & it is  ${resultValue}`);
+
+  function isEvenOrOddNum(num) {
+    var result=num % 2 ==0 ? "Even" : "Odd";
+    return result;
+   }
+ var resultValue=isEvenOrOddNum(101);
+  console.log(`Given no 101& it is ${resultValue}`);
+
 console.log("------------------------------------------------------------------------------------------");
-
 function wordLength(word) {
-  return word.length % 2 === 0 ? "EVEN" : "ODD";
+  var length = word.length;
+  var result = length % 2 === 0 ? "Even" : "Odd";
+  console.log(` ${word}: ${result}\n`);
 }
-
-
-console.log(wordLength("JavaScript")); 
-console.log(wordLength("developer"));   
-console.log(wordLength("Google"));      
+wordLength("JavaScript");
+wordLength("developer");
+wordLength("Google");
